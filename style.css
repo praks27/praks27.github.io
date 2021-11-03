@@ -1,0 +1,40 @@
+.container{
+    width:800px;
+    /* height:200px; */
+    border: 5px solid steelblue;
+    margin: 30px auto;/*otomatis poss  ditengah*/
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: baseline;
+    align-content: center;
+}
+/* .container::after{
+    content:"";
+    display: block;
+    clear: both;
+} */
+.container div{
+    width:150px;
+    height:100px;
+    background-color: teal;
+    margin: 2px;
+    /* float: left; */
+    
+}
+.container div.box1{
+    font-size: 30px;
+    
+}
+.box2{
+    font-size: 30px;
+    /* order:2; */
+    flex-grow: 2;
+}
+.box3{
+    /* order: ; */
+}
+.box4{
+    /* order: ; */
+}
